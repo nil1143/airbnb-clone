@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 550px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    width: 550px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    size: 100%;
+    padding: 22px 30px;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero--header {
+    margin-bottom: 16px;
+}
+
+.hero--text {
+    margin-top: 0px;
+}
+
+.card{
+    width: 175px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    position: relative;
+    font-size: 12px;
+  
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+.card--image {
+    height: 230px;
+}
+
+
+#star {
+    width: 15px;
+    height: 15px;
+}
+
+
+.gray {
+    color: #918E9B;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+ .card--badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+} 
+
+.sec{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
